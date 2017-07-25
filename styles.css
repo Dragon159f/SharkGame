@@ -1,0 +1,9 @@
+#world {
+  background-image: url(https://m.popkey.co/dee3e0/Ep7Dm.gif);
+  width: 400px;
+  height: 400px;
+  margin: 50px;
+
+  position: relative;
+  overflow: hidden; /* hide elements outside the world */
+}
