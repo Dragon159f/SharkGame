@@ -2,8 +2,40 @@
 <html>
     <head>
         <title>Game World</title>
+        <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+        <script src="./jquery-3.2.1.slim.min.js"></script>
+        <script src="./script.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
     </head>
     <body>
-        <div id="world"></div>
+        
+        <h1> Shark Attack</h1>
+        <p>3,900 ft. down in the deep dark ocean there lays a hungry shark looking to eat a lot of fish and travels to an unknown location that has what seems to be an infinte amount of fish but the shark is afraid of fishes</p>
+        <div class="score">
+            <h2>SCORE: <span class="score-value">0</span> </h2> 
+            
+            <img class="boat" src="https://s-media-cache-ak0.pinimg.com/originals/a7/b3/fd/a7b3fdf9210ed1b6b2fb53b3d4097c08.png"/>
+        </div>
+        <div id="world">
+            <img id="badfish" src="http://freepngimages.com/wp-content/uploads/2016/02/mirror-carp-fish-transparent-background-image.png"/>
+            <img class="goodfish" src="https://i1.wp.com/freepngimages.com/wp-content/uploads/2015/10/clown-fish-transparent-background.png?fit=482%2C300"/>
+            <img id="shark" src="http://www.livingstonreads.org/images/Shark%201.png" />
+            
+        </div>
+        <button class="start">Click to Play</button>
+        <button id="pause">Pause</button> 
+        <button class="start">Resume</button>
+        <div id="instuctions">
+            <p><i><b>Instructions</b></i></p> 
+            <ol>
+                <li>Catch as many good fish as you can</li>
+                <li>Right arrow to move right</li>
+                <li>Left arrow to move left</li>
+            </ol>
+        </div>
+        <audio  autoplay>
+          <source src="background.mp3" type="audio/mpeg">
+        </audio>
     </body>
 </html>
